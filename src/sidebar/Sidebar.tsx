@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Sidebar.css';
 
-function App() {
+function Sidebar() {
   return (
     <aside className="sidebar">
       Sidebar
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Sidebar;
