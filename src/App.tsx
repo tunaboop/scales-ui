@@ -4,12 +4,24 @@ import DemoScreen from "./demo/DemoScreen";
 import Sidebar from "./sidebar/Sidebar";
 
 function App() {
-  return (
-    <div className="App">
-        <Sidebar/>
-        <DemoScreen/>
-    </div>
-  );
+    const componentsArr = ['Card'];
+    const Components = () => {
+        return(
+            <ul>
+                {componentsArr.map((component) => {
+                    return <li><a href={`#${component}`}>{component}</a></li>
+                })}
+            </ul>
+        )
+    }
+    return (
+        <div className="App">
+            <Sidebar>
+                <Components/>
+            </Sidebar>
+            <DemoScreen/>
+        </div>
+    );
 }
 
 export default App;

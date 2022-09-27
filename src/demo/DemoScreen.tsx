@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
 import './Demo.css';
-import Card from "../card/Card";
+import CardDemo from "../card/CardDemo";
 
 function DemoScreen() {
   return (
     <div className="demo-screen">
         Demo
-        <Card/>
+        <CardDemo/>
     </div>
   );
 }
