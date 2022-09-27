@@ -1,3 +1,16 @@
+:root {
+  /*Tunaboop colors*/
+  --blue: #255CFF;
+  --light-blue: #259FFF;
+  --white: #FFFFFF;
+  --light-orange: #FFBF4D;
+  --orange: #FFA500;
+
+  /*Other variables*/
+  --border-color: #b0bec5;
+  --fullwidth: 100%;
+}
+
 .App {
   text-align: center;
 }

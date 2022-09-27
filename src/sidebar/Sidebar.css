@@ -1,17 +1,12 @@
 aside {
   width: 20%;
   height: 100vh;
-  padding-right: .5rem;
-  margin-right: .5rem;
   float: left;
   font-style: italic;
-  color: #29627e;
-  background-color: #61dafb;
+  color: #010101;
+  background-color: var(--light-blue);
 }
 
-aside > p {
-  margin: .5rem;
-}
 
 p {
   font-family: 'Fira Sans', sans-serif;

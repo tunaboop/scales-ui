@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../App.css';
-import Sidebar from "../sidebar/Sidebar";
+import './Demo.css';
+import Card from "../card/Card";
 
 function DemoScreen() {
   return (
     <div className="demo-screen">
         Demo
-        <Sidebar/>
+        <Card/>
     </div>
   );
 }
