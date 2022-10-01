@@ -8,8 +8,8 @@ function App() {
     const Components = () => {
         return(
             <ul>
-                {componentsArr.map((component) => {
-                    return <li><a href={`#${component}`}>{component}</a></li>
+                {componentsArr.map((component, index) => {
+                    return <li key={index}><a href={`#${component}`}>{component}</a></li>
                 })}
             </ul>
         )
