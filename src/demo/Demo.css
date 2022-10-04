@@ -1,3 +1,16 @@
+h1 {
+    padding-top: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
 .demo-screen {
     margin-left: 20%;
+}
+
+.about-project {
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 24px;
 }

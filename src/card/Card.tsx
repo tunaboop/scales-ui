@@ -2,10 +2,13 @@ import React from 'react';
 import '../App.css';
 import './Card.css';
 
-function Card() {
+type CardProps = {
+    children: React.ReactNode | React.ReactNode[]
+}
+function Card(props: CardProps) {
   return (
     <div className="card">
-      <span className="card-text">Card</span>
+        {props.children}
     </div>
   );
 }
